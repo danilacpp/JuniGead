@@ -1,0 +1,6 @@
+hikari==2.0.0dev116
+hikari[speed]
+hikari-lightbulb==2.3.1
+hikari-miru==3.0.2
+sqlitedict==2.1.0
+uvloop==0.17.0; os_name != "nt"
