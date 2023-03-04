@@ -1,5 +1,22 @@
 # JuniGead
 
+<div align="center">
+
+<a class="github-badge" href="https://github.com/danilacpp/JuniGead" tabindex="-1">
+<img src="https://img.shields.io/github/repo-size/danilacpp/JuniGead" alt="Repo Size"/>
+</a>
+<a class="github-badge" href="https://github.com/danilacpp/JuniGead" tabindex="-1">
+<img src="https://img.shields.io/github/last-commit/danilacpp/JuniGead" alt="GitHub last commit"/>
+</a>
+<a class="github-badge" href="https://github.com/danilacpp/JuniGead" tabindex="-1">
+<img src="https://img.shields.io/github/commit-activity/m/danilacpp/JuniGead?label=commits" alt="GitHub commit activity"/>
+</a>
+<a class="github-badge" href="https://discord.com/invite/4jq5xFSksh" tabindex="-1">
+<img src="https://img.shields.io/discord/982266650030116906" alt="Discord"/>
+</a>
+
+</div>
+
 Официальный репозиторий игрового бота JuniGead для платформы Discord.
 
 На текущий момент здесь будет переработка кода текущей версии бота.
