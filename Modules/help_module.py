@@ -1,7 +1,7 @@
 from lightbulb import Plugin, command, implements, SlashCommand, SlashContext, option
 from Core import embed, send_doc_command
 
-plugin = Plugin("Help_Module")
+plugin = Plugin("Help")
 
 
 @plugin.command()
@@ -17,7 +17,10 @@ async def help_command(ctx: SlashContext):
             embed=embed(
                 "Справка",
                 "Добро пожаловать в справочную систему JuniGead!\n\n"
-                "Справочные команды: /хелп\n",
+                "Справочные команды: /хелп, /стат;\n"
+                "\nИгры на одного: /восхождение, /лабиринт, /найди_пару, /сапер;\m"
+                "\nИгры для двоих: ...\n"
+                "\nИгры для 3+ игроков: ...\n",
             ).set_footer(
                 "Вы также сможете посмотреть справку отдельной команды: /хелп команда"
             )

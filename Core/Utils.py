@@ -2,7 +2,7 @@ from hikari import Embed, Color
 from lightbulb import SlashCommand
 
 
-def embed(title: str, description: str) -> Embed:
+def embed(title: str, description=None) -> Embed:
     return Embed(
         title=title,
         description=description,
@@ -34,3 +34,9 @@ def send_doc_command(command: SlashCommand) -> str:
         DOCSTRING += "```\n\n<> - обязательная опция, [] - необязательная опция"
 
         return DOCSTRING
+
+
+# Константы
+
+DOT = "<:dot:1004787588751699978>"
+__version__ = "2023.4.0 (Бесплатная серия)"
